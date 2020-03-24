@@ -1,0 +1,5 @@
+#script for building and running container
+
+#!/bin/bash
+docker build -t kostia/fourth_lab .
+docker run -p 3001:3001 -d kostia/fourth_lab
